@@ -3,7 +3,7 @@ let currentYear = date.getFullYear();
 
 function Footer() {
 
-    return <footer><p>{currentYear}</p></footer>
+    return <footer><p>Copyright {currentYear}</p></footer>
 }
 
 export default Footer;
