@@ -1,8 +1,8 @@
-function Note() {
+function Note(props) {
 
     return <div className="note">
-        <h1>Please write a note here</h1>
-        <p>description of the note.</p>
+        <h1>{props.title}</h1>
+        <p>{props.content}</p>
     </div>
 }
 
