@@ -1,6 +1,11 @@
-function Heading(){
+import React from "react";
 
-    return <header><h1>Sakthivel.V</h1></header>
+function Header() {
+  return (
+    <header>
+      <h1>Keeper</h1>
+    </header>
+  );
 }
 
-export default Heading;
+export default Header;
